@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react'
 import ReactDOM from 'react-dom'
 import Routers from './routes'
+import './assets/styles/global.css'
 
 ReactDOM.render(<Routers />, document.getElementById('root'))
